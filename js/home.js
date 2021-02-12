@@ -21,6 +21,13 @@ var incomeValue = 0;
 var expenceValue = 0;
 var recentTransaction = [];
 
+function date(){
+    var dateBox = document.getElementById("date");
+    var date = new Date();
+    var today = date.getUTCFullYear();
+    dateBox.innerHTML = `<p>${today}</p>`;
+}
+
 function loadUserName(){
      var username = sessionStorage.getItem('username');
      if(username){
@@ -129,3 +136,8 @@ addButton.addEventListener("click", updateBalance);
 addButton.addEventListener("click", createTransaction);
 addButton.addEventListener("click",displayHistory);
 addButton.addEventListener("click",note);
+
+
+//api
+
+//call

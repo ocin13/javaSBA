@@ -1,0 +1,13 @@
+this is an expence tracker application it helps to track and sort you expenses and incomes
+
+*this app includes 03 pages : sign in, sign up and the home page.
+*to use this app you need to create an account than log in using the same information for that account note
+that i am using session storage so as soon as the browser window is open so you user name and password will remain availble in all the
+page via session storage.
+*the home page include 03 main sections:
+---first is the display board of the overview where you can see: balance,expenses,icomes...
+---second is the form to add new transaction it include 03 main inputs:
+        ***description
+	***category for expenses only for any income you should select none
+	***amout positive values for income and negative values for expenses.
+---third and final section is a table that store all the previous transaction but it display only the 15 latest transaction;
