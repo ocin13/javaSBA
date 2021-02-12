@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.navbar-menu{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+h1, h3,h4,h2, p{
+    text-transform: capitalize;
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+
+.main-box{
+    background-color: rgb(9, 9, 27);
+}
+section{
+    padding: 50px 0;
+}
+.nav{
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.link{
+    padding: 8px 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: rgb(6, 36, 59);
+}
+@media (min-width: 600px){
+    .navbar-list{
+        margin-left: auto;
+    }
+}
+.cardInfo{
+    background-color: rgb(6, 36, 59);
+    text-align: center;
+    color: #fff;
+}
+.green-circle{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(7, 168, 7);
+    box-shadow: 1px 1px 5px green;
+}
+.red-circle{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(189, 5, 66);
+    box-shadow: 1px 1px 5px red;
+}
+.categories{
+    background-color: rgb(6, 36, 59);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#category option{
+    color: black;
+    font-weight: 600;
+}
+#income{
+    color: green;
+}
+#expense{
+    color: red;
+}
+#notification p{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin: auto;
+    color: rgb(6, 36, 59);
+}

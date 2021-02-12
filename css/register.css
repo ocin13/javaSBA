@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,p{
+    text-transform: capitalize;
+
+}
+#btn-register{
+    width: 50%;
+    background-color: #4CD7D0;
+    color: #fff;
+    border-radius: 50px;
+}
+i{
+    font-size: 1.9em;
+    transition: all ease-in-out 400ms;
+}
+i:hover{
+    color: #4CD7D0;
+    cursor: pointer;
+}
+.register-box{
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+    overflow: hidden;
+}
+.register-text{
+    color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/13/20/30/wood-938698__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px 5px black;
+    font-size: 1.3em;
+}
+.back-btn{
+    background-color: rgba(red, green, blue, 0);
+    border: 2px solid #fff;
+    color: white;
+    width: 50%;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all ease-in-out 400ms;
+}
+.back-btn:hover{
+    color: #4CD7D0;
+    background-color: white;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}

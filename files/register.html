@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <div class="container-fluid mx-0 p-5">
+        <div class="register-box row px-0 mx-0" >
+            <div class="col-12 col-sm-7 py-5 text-center register-form">
+                <h1 class="py-3">Please register here</h1>
+                <div class="row py-2">
+                    <p>please enter your information in the form bellow</p>
+                </div>
+                <div class="row">
+                    <form>
+                        <div class="col-8 mx-auto py-2">
+                            <input type="text" id="registerUser" class="form-control py-3" placeholder="User Name" required="" autofocus="" >
+                        </div>
+                        <div class="col-8 mx-auto py-2">
+                            <input type="email" id="registerEmail" class="form-control py-3" placeholder="Email address" required="" autofocus="" >
+                        </div>
+                        <div class="col-8 mx-auto py-2">
+                            <input type="password" id="registerPassword1" class="form-control py-3" placeholder="Password" required="" >
+                        </div>
+                        <div class="col-8 mx-auto py-2">
+                            <input type="password" id="registerPassword2" class="form-control py-3" placeholder="Password" required="" >
+                        </div>
+                        <div class="checkbox mb-3 py-2">
+                          <label >
+                            <input  type="checkbox" id="accept"> i accept the terms and conditions
+                          </label>
+                        </div>
+                        <button class="btn btn-lg btn-default" id="btn-register" type="button" >Register</button>
+                        <div class="row" id="message"></div>
+                      </form>
+                </div>
+            </div>
+            <div class="col-12 col-sm-5 px-5 py-5 d-none d-sm-block register-text" >
+                <div class="row py-3">
+                    <h1>welcome to the register page</h1>
+                </div>
+                <div class="row py-5 pr-5">
+                    <p style="line-height: 30px;">fill this form with the adequat information to create an account and use the information of the account you have created to start using expence tracker
+                    </p>
+                </div>
+                <div class="row">
+                    <button class="btn btn-default back-btn" onclick="window.location='../index.html'" >Go Back To sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
